@@ -445,16 +445,16 @@ DEMO
 */
 
 :root{
-  --uia-timeline-line-color: #4557bb;
-  --uia-timeline-dot-color: #4557bb;
-  --uia-timeline-arrow-color: #4557bb;
+  --uia-timeline-line-color: #1c2836;
+  --uia-timeline-dot-color: #1c2836;
+  --uia-timeline-arrow-color: #1c2836;
   --uia-timeline-line-thickness: 3px;
-  --uia-timeline-point-border-color: #4557bb;
+  --uia-timeline-point-border-color: #1c2836;
   --uia-timeline-group-padding: 1.5rem 1.5rem 1.25rem;
 }
 
 [data-uia-timeline-skin="3"]{
-	--uia-timeline-year-background-color: #4557bb;
+	--uia-timeline-year-background-color: #1c2836;
 }
 
 body{
