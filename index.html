@@ -47,6 +47,110 @@
 
 
 
+
+          <!-- EDICIÓN DE DATOS  -->
+          <section class="uia-timeline__group" aria-labelledby="timeline-demo-1-heading-2">
+            <div class="uia-timeline__point uia-card" data-uia-card-skin="1" data-uia-card-mod="1">
+              <div class="uia-card__container">
+                <div class="uia-card__intro">
+                  <h3 id="timeline-demo-1-heading-2" class="ra-heading">Mostrando datos de usuarios desde la BD</h3>
+                </div>
+                <div class="uia-card__body">
+                  <div class="uia-card__description">
+                    <img src="source/datos-user.png" alt="" width="620">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- MOSTRAR INFO DE USUARIO  -->
+          <section class="uia-timeline__group" aria-labelledby="timeline-demo-1-heading-2">
+            <div class="uia-timeline__point uia-card" data-uia-card-skin="1" data-uia-card-mod="1">
+              <div class="uia-card__container">
+                <div class="uia-card__intro">
+                  <h3 id="timeline-demo-1-heading-2" class="ra-heading">Mostrando datos de usuarios desde la BD</h3>
+                </div>
+                <div class="uia-card__body">
+                  <div class="uia-card__description">
+                    <img src="source/edit-datos.png" alt="" width="620">
+                    <h3>Tareas realizadas</h3>
+                    <p>
+                     <strong>Configurar un Servicio de Cliente HTTP:</strong> <br>
+                      Se utilizó el servicio HttpClient para realizar solicitudes HTTP a un endpoint que proporciona los datos de la base de datos. 
+                      Este servicio permite enviar solicitudes GET, POST, PUT, DELETE, etc.
+                    </p>
+                    <p>
+                      <strong>Crear un Endpoint en el Servidor:</strong> <br>
+                      Endpoint en el servidor que maneje la solicitud para obtener los datos de usuario desde la base de datos.
+                      Este endpoint es una API RESTful para devolver los datos requeridos.
+                     </p>
+                     <p>
+                      Utilizando el servicio HttpClient, se envia una solicitud HTTP al endpoint creado en el servidor. La solicitud GET para obtener los datos de usuario.
+                     </p>
+                     <p>
+                      <strong>Procesar la Respuesta:</strong> <br>
+                      Una vez que se recibe la respuesta del servidor, se procesa en el sistema. Se deserializa la respuesta JSON en un objeto C# que se utiliza en la aplicación.
+                     </p>
+                     <p>
+                      <strong>Mostrar los Datos al Usuario:</strong> <br>
+                      Finalmente,se muestran los datos del usuario en la interfaz de usuario.
+                     </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- REGISTRO DE USUARIO EN LA BD -->
+          <section class="uia-timeline__group" aria-labelledby="timeline-demo-1-heading-2">
+            <div class="uia-timeline__point uia-card" data-uia-card-skin="1" data-uia-card-mod="1">
+              <div class="uia-card__container">
+                <div class="uia-card__intro">
+                  <h3 id="timeline-demo-1-heading-2" class="ra-heading">Registro de usuarios den la Base de Datos</h3>
+                </div>
+                <div class="uia-card__body">
+                  <div class="uia-card__description">
+                    <img src="source/registro-bd-user.png" alt="" width="620">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- IMPLEMENTACIÓN LOGIN V2 -->
+          <section class="uia-timeline__group" aria-labelledby="timeline-demo-1-heading-2">
+            <div class="uia-timeline__point uia-card" data-uia-card-skin="1" data-uia-card-mod="1">
+              <div class="uia-card__container">
+                <div class="uia-card__intro">
+                  <h3 id="timeline-demo-1-heading-2" class="ra-heading">Se implemento el Login v2</h3>
+                </div>
+                <div class="uia-card__body">
+                  <div class="uia-card__description">
+                    <img src="source/implem-log2.png" alt="" width="620">
+                    <h3>Datos técnicos del funcionamiento</h3>
+                    <h5>Autenticación de Usuario (Login)</h5>
+                    <ul>
+                      <li>Endpoint: /login</li>
+                      <li>Método: POST</li>
+                      <li>Datos de entrada: Credenciales del usuario (correo electrónico y contraseña).</li>
+                      <li>Proceso:
+                        <ul>
+                          <li>Validar las credenciales contra la base de datos.</li>
+                          <li>Si las credenciales son correctas, generar un token de sesión (JWT).</li>
+                          <li>Devolver el token de sesión al cliente.</li>
+                        </ul>
+                      </li>
+                      <li>Respuesta:
+                        <ul>
+                          <li>Éxito: Un JSON con el token de sesión y un mensaje de éxito.</li>
+                          <li>Error: Un mensaje de error apropiado (credenciales incorrectas, cuenta no
+                            encontrada, etc.).</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
           <!-- INICIA LA SEMANA 3 -->
           <section class="uia-timeline__group" aria-labelledby="timeline-demo-1-heading-2">
             <div class="uia-timeline__point uia-card" data-uia-card-skin="1" data-uia-card-mod="1">
@@ -55,7 +159,7 @@
                   <span class="uia-card__time">
                     <time datetime="2008-02-02">
                       <span class="uia-card__day">Inicia (Semana #4)</span>
-                      <span>19/enero - 26/feb 2024</span>
+                      <span>19/Feb - 26/feb 2024</span>
                     </time>
                   </span>
                 </div>
