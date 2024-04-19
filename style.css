@@ -549,7 +549,7 @@ width: 100%;
 
 .my-progress-bar--step-text {
 container-name: progress-step;
-font-size: clamp(0.625rem, 2vw, 1rem);
+font-size: 12px;
 }
 
 @container progress-step (min-width: 700px) {
